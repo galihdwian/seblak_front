@@ -6,6 +6,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   trailingSlash: true,
+  optimizeFonts: false, // <-- Menonaktifkan download Google Fonts saat build
   images: {
     loader: "custom",
     loaderFile: "ImageLoader.js",
