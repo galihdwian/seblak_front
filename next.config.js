@@ -11,7 +11,7 @@ const nextConfig = {
     loaderFile: "ImageLoader.js",
     unoptimized: true,
   },
-  basePath: process.env.NEXT_PUBLIC_BASE_PATH
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH || ''
 }
 
 module.exports = withFlowbiteReact(nextConfig)
